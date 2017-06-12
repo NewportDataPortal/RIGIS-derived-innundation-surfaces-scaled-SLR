@@ -1,0 +1,355 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Shoreline Change SAMP Team, URI Graduate School of Oceanography
+      Publication_Date: 20160119
+      Title: 2015 NACCS-Derived Inundation Surfaces for Rhode Island Incorporating the Effects of Both Storm Surge and Tide
+      Geospatial_Data_Presentation_Form: vector digital data and raster digital data
+      Publication_Information:
+        Publication_Place: Narragansett, RI
+        Publisher: Shoreline Change SAMP Team
+      Other_Citation_Details:
+        Suggested bibliographic reference:
+        RIGIS, 2016. 2015 NACCS-Derived Inundation Surfaces for Rhode Island Incorporating the Effects of Both Storm Surge and Tide. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 20 January 2016).
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Rhode Island Geographic Information System (RIGIS)
+          Publication_Date: 1993
+          Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: The North Atlantic Comprehensive Study (NACCS) performed simulations of 1050 synthetic tropical storms using a fully coupled ADCIRC/WAM/STWAVE with a very high resolution grid primarily covering the Mid Atlantic study area (Cialone, 2015). Simulations were performed for surge only and surge plus tidal cases, with predictions being saved at 18,000 grid locations; 1000 in RI. Return period analyses were performed by USACE for each save point and the predicted water level values at the mean, upper and lower 95% confidence intervals were provided. In the present effort, data from the NACCS RI save points were analysed and spatially scaled to develop a series of projected flood inundation surfaces to visualize multiple storm return periods and sea level rise scenarios. Mean projections were used for events with a return period of 10 years or less, while the upper 95% confidence interval (CI) values were applied to events with return periods 25 years and greater to provide an extra measure of protection. These NACCS-derived flood surfaces show projected water levels that include both storm surge and tidal effects and correct major deficiencies with the widely used bath tub models.
+    Purpose: Impacts of recent coastal storms such as Superstorm Sandy (October 2012) reveal the need to address the vulnerability of populations, infrastructure, and resources at risk from storm surge throughout Rhode Island. The U.S. Army Corps of Engineers (USACE) completed the North Atlantic Comprehensive Study (NACCS) in 2015, which provides new tools and information to assess coastal storm and flood risks. Information from the NACCS was integrated into STORMTOOLS. These coastal inundation modeling results can be used by state government and local communities to identify storm surge flooding risks and develop adaptation strategies to reduce those risks now and into the future.
+    Supplemental_Information:
+      The vision for STORMTOOLS is to provide access to a suite of high-resolution coastal planning tools (numerical models, etc.) that can be used to develop adaptation policies and actions to reduce  storm surge vulnerability. The STORMTOOLS inundation mapping effort represents the first step in the development of an integrated toolset that includes the development of simplified flood maps for varying storm return periods and sea level rise scenarios, incorporating the effects of both storm surge and tide as derived from the NACCS. 
+      These NACCS-derived flood surfaces correct major deficiencies with the widely used bath tub models by taking in to account the shape/orientation of the Narragansett Bay basin and the resulting funneling effects on water levels during storm events (Spaulding, 2014). From this work, two important points emerge: 
+      1) Surge heights increase as one moves north from Newport to Providence; and 
+      2) The relationship between water levels at Newport and Providence is predominantly linear. 
+      Understanding this, as long as the water level is known at the Newport tide gauge, values can be interpolated for any location within the Bay. For a complete understanding of the theory, methods and limitations of this work, users should review both the Scaled Sea Level Rise Summary document and the draft report detailing the methodology employed for the Simplified Flood Inundation Mapping (both PDF documents are available for download from the project page for these data at www.rigis.org. 
+      Table 1 lists the inundation surfaces developed as part of this work for multiple storm events and sea level rise (SLR) scenarios. In addition, inundation layers were generated for the 4 largest historic storms to impact the state and illustrate Rhode Island’s current level of vulnerability if an event with a similar magnitude were to strike again today.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20160119
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Completed
+    Maintenance_and_Update_Frequency: Not Planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.892300
+      East_Bounding_Coordinate: -71.121700
+      North_Bounding_Coordinate: 42.004228
+      South_Bounding_Coordinate: 41.163001
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: planningCadastre
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: Sea Level Rise
+      Theme_Keyword: SLR
+      Theme_Keyword: inundation
+      Theme_Keyword: nuisance event
+      Theme_Keyword: major event
+      Theme_Keyword: historic event
+      Theme_Keyword: hurricane of 1938
+      Theme_Keyword: hurricane carol
+      Theme_Keyword: hurricane bob
+      Theme_Keyword: superstorm sandy
+      Theme_Keyword: 1-year
+      Theme_Keyword: 3-year
+      Theme_Keyword: 5-year
+      Theme_Keyword: 10-year
+      Theme_Keyword: 25-year
+      Theme_Keyword: 50-year
+      Theme_Keyword: 100-year
+      Theme_Keyword: 500-year
+      Theme_Keyword: USACE
+      Theme_Keyword: STORMTOOLS
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: Rhode Island
+      Place_Keyword: Narragansett Bay
+      Place_Keyword: New England
+  Access_Constraints: None.
+  Use_Constraints:
+    Limitations:
+    Following the NOAA Inundation Mapping protocol (NOAA, 2012), limitations of the results include: 
+    • These data are primarily for planning, educational, and awareness purposes only and should not be used for site-specific analysis, navigation, or permitting. 
+    • The mapping does not incorporate future changes in coastal geomorphology (coastal erosion) and assumes present conditions (no adjustments for climate change) will persist, which will not be the case. 
+    • The digital elevation model used to map sea level rise and flooding does not incorporate a detailed hydro-connectivity analysis, or engineering grade hydrologic analysis.  Therefore, hydrologically unconnected areas of inundation are still displayed if they are in close proximity to flooded areas, though symbolized differently (noted as low lying) than hydrologically connected inundation. These areas require additional on-site screening to determine if flooding will occur.
+    • The digital elevation model used for the analyses represents the best available topographic/bathymetric available for RI. However, these data are only an approximation of the true landscape and artifacts within the data might indicate areas of flooding where none will actually occur. Local knowledge and experience must be used be used to inform any additional analysis or decision-making based upon these data.
+    Disclaimers: 
+    The user should recognize that these maps are based on models that estimate coastal inundation. The maps maybe inaccurate or contain errors or omissions. The user assumes full responsibility for the risks and damages that might result from using these maps or the underlying data. These maps are not flood insurance rate maps and should not be used in place of them. Official FEMA Flood Insurance Rate Maps for RI are provided at http://www.riema.ri.gov/prevention/floods/mapping.php.
+    RIGIS Use Constraints:
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Shoreline Change SAMP Team, URI Graduate School of Oceanography
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: URI Narragansett Bay Campus
+        Address: Coastal Resources Center
+        City: Narragansett
+        State_or_Province: RI
+        Postal_Code: 02882
+      Contact_Electronic_Mail_Address: beachSAMP@etal.uri.edc
+      Contact_Instructions: E-mail preferred
+  Data_Set_Credit:
+    Federal Emergency Management Agency
+    National Oceanographic and Atmospheric Administration
+    RI Coastal Resources Management Council
+    URI Coastal Resources Center
+    URI Environmental Data Center
+    URI Ocean Engineering
+    U.S. Army Corps of Engineers
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: All attribute have been manually reviewed. The vector data combines the two separate raster datasets that were developed for flood extent and adjacent low lying areas for each storm event/SLR scenario. Users can refer to the CLASS attribute within the data table to indicate which areas are either "Inundated" or "Lowlying".
+  Logical_Consistency_Report:
+    The North Atlantic Comprehensive Study (NACCS) performed simulations of 1050 synthetic tropical storms using a fully coupled ADCIRC/WAM/STWAVE with a very high resolution grid primarily covering the Mid Atlantic study area (Cialone, 2015). The grid resolution was as high as 50 m in flood inundated areas in Narragansett Bay and along the southern RI shoreline and associated coastal ponds. Simulations were performed for surge only and surge plus tidal cases. Model predictions were saved at 18,000 grid locations; 1000 in RI. Return period analyses were performed by USACE for each save point. Values for the mean and upper and lower 95% confidence intervals were provided. 
+    In the present effort, the data from the NACCS RI save points were analysed and spatially scaled to develop a series of projected flood inundation surfaces for coastal RI (Table 2; Table 3 - see Inundation_Surface_Metadata.pdf, available from Project page and in downloaded ZIP files). Mean projections were used for events with a return period of 10 years or less, while the upper 95% confidence interval (CI) values were applied to events with return periods 25 years and greater to provide an extra measure of protection. By their very nature, mean projections will be wrong 50% of the time.  In adopting the 95% CI, planners can be 95% certain that storm surge inundation will not exceed the values contained within these surfaces. Details on the application and validation are provided in Spaulding et al (2015). Background information on the North Atlantic Coastal Comprehensive Study can be found in the documents: NACCS Resilient Adaptation to Increasing Risk and NACCS Flood Guidance (please see data project page for links to these two resources.
+  Completeness_Report: All model predictions generated by the NACCS project for Rhode Island (1,000/18,000) were run through these simulations. All data have been manually reviewed for completeness.
+  Positional_Accuracy:
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report:
+        Rhode Island Digital Elevation Model (derived from 2011 Statewide LiDAR) Vertical Accuracy Report has been copied and pasted here as these data were used as the basis for the derivation of these vector and raster data layers. For more information on the Spring 2011 Statewide LiDAR Project and the 2011 DEM for Rhode Island, please visit www.rigis.org/data/topo. 
+        Raster DEMs were tested by Photo Science for both vertical and horizontal accuracy. All data is seamless from one tile to the next, no gaps or no data areas. The vertical unit of the data file is in decimal meters with 2-decimal point precision. The reported RMSEz value was determined using the calibration control points, and not the Blind Control. The calibration control points are the same points that were used to remove any bias in the dataset before bare earth editing. The listed RMSEz value shown below was calculated from the ground (ASPRS Class 2) data in the final Classified LAS file.
+      Quantitative_Vertical_Positional_Accuracy_Assessment:
+        Vertical_Positional_Accuracy_Value: 0.22
+        Vertical_Positional_Accuracy_Explanation: RMSE in meters, as calculated from Classified LAS files.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: URI Environmental Data Center; Photo Science, Inc.
+          Publication_Date: 20130330
+          Title: Digital Elevation Mode; DEM11
+          Geospatial_Data_Presentation_Form: raster digital data
+          Publication_Information:
+            Publication_Place: Kingston, RI
+            Publisher: URI Environmental Data Center
+          Online_Linkage: http://www.rigis.org/topo/2011
+      Type_of_Source_Media: raster digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20110422
+            Ending_Date: 20110506
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: DEM11
+      Source_Contribution: Topographic data for Rhode Island
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Army Corps of Engineers JALBTCX
+          Publication_Date: 2007
+          Title: JALBTCX 2007 Near-Shore Bathymetric Soundings
+          Geospatial_Data_Presentation_Form: raster digital data
+          Publication_Information:
+            Publisher: U.S. Army Corps of Engineers
+      Type_of_Source_Media: raster digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2007
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: USACE2007
+      Source_Contribution: near-shore bathymetric soundings
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Army Corps of Engineers JALBTCX
+          Publication_Date: 2010
+          Title: JALBTCX 2010 Near-Shore Bathymetric Soundings
+          Geospatial_Data_Presentation_Form: raster digital data
+          Publication_Information:
+            Publisher: U.S. Army Corps of Engineers
+      Type_of_Source_Media: raster digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2010
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: USACE2010
+      Source_Contribution: near-shore bathymetric soundings
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NOAA National Ocean Service
+          Title: NOS Hydrographic Survey Data
+          Geospatial_Data_Presentation_Form: raster digital data
+          Publication_Information:
+            Publisher: NOAA National Ocean Service, National Geophysical Data Center
+          Online_Linkage: http://www.ngdc.noaa.gov/mgg/bathymetry/hydro.html
+      Type_of_Source_Media: raster digital data
+      Source_Citation_Abbreviation: NOS
+      Source_Contribution: near-shore bathymetric soundings
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Army Corps of Engineers
+          Publication_Date: 20141119
+          Title: USACE Sea Level Change Curve Calculator
+          Geospatial_Data_Presentation_Form: online
+          Publication_Information:
+            Publisher: U.S. Army Corps of Engineers
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20141119
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USACE SLRCalc
+      Source_Contribution: SLR curves and planning horizons
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Cialone, Mary A., T. Chris Massey, Mary E. Anderson, Alison S. Grzegorzewski, Robert E. Jensen, Alan Cialone, David J. Mark, Kimberly C. Pevey, Brittany L. Gunkel, Tate O. McAlpin, Norberto N. Nadal-Caraballo, Jeffrey A. Melby, and Jay J. Ratcliff
+          Publication_Date: 2015
+          Title: North Atlantic Coast Comprehensive Study (NACCS) Coastal Storm Model Simulations: Waves and Water Levels,
+          Edition: Report: ERDC/CHL TR-XX-DRAFT
+          Geospatial_Data_Presentation_Form: Report
+          Publication_Information:
+            Publication_Place: 3909 Halls Ferry Road, Vicksburg, MS 39180-6199
+            Publisher: Coastal and Hydraulics Laboratory U.S. Army Engineer Research and Development Center
+      Type_of_Source_Media: Report
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2015
+        Source_Currentness_Reference: publication date
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NOAA
+          Publication_Date: 201205
+          Title: Details methodology for mapping sea level rise inundation
+          Geospatial_Data_Presentation_Form: Report
+          Publication_Information:
+            Publisher: NOAA, Coastal Services Center
+      Type_of_Source_Media: Report
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 201505
+        Source_Currentness_Reference: publication date
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Spaulding, M.L. and T. Isaji
+          Publication_Date: 2014
+          Title: Simplified flood inundation maps, with sea level rise
+          Geospatial_Data_Presentation_Form: Report
+          Publication_Information:
+            Publication_Place: Narragansett, RI
+            Publisher: Graduate School of Oceanography, University of Rhode Island
+      Type_of_Source_Media: Report
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2014
+        Source_Currentness_Reference: publication date
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Spaulding, M. L., A. Grilli, T. Isaji, C. Damon, R. Hashemi, L. Schumbach, and A. Shaw
+          Publication_Date: 2015
+          Title: Development of flood inundation and wave maps for the Washington County, RI using high resolution, fully coupled surge and wave (ADCIRC and STWAVE) models
+          Geospatial_Data_Presentation_Form: Report
+          Publication_Information:
+            Publication_Place: South Kingstown, RI
+            Publisher: Graduate School of Oceanography, University of Rhode Island
+      Type_of_Source_Media: Report
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2015
+        Source_Currentness_Reference: publication date
+    Process_Step:
+      Process_Description: Please reference the Scaled Sea Level Rise Summary document - http://edc.maps.arcgis.com/home/item.html?id=9ac9c280270a44c587e9d39717d2fe9f - and the Simplified Flood Inundation Mapping document - http://edc.maps.arcgis.com/home/item.html?id=7591875bc23b46a09e121e12bbb0a32e - for details on how these data were developed.
+      Process_Date: 20160119
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Shoreline Change SAMP Team, URI Graduate School of Oceanography
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: URI Narragansett Bay Campus
+            Address: Coastal Resources Center
+            City: Narragansett
+            State_or_Province: RI
+            Postal_Code: 02882
+          Contact_Electronic_Mail_Address: beachSAMP@etal.uri.edc
+          Contact_Instructions: E-mail preferred
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane Rhode Island FIPS 3800 Feet
+        Transverse_Mercator:
+          Scale_Factor_at_Central_Meridian: 0.99999375
+          Longitude_of_Central_Meridian: -71.5
+          Latitude_of_Projection_Origin: 41.08333333333334
+          False_Easting: 328083.3333333333
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000007286382608384659
+          Ordinate_Resolution: 0.000000007286382608384659
+        Planar_Distance_Units: foot_us
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.edc.uri.edu/rigis.
+Metadata_Reference_Information:
+  Metadata_Date: 20160119
+  Metadata_Review_Date: 20160120
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Shoreline Change SAMP Team, URI Graduate School of Oceanography
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: URI Narragansett Bay Campus
+        Address: Coastal Resources Center
+        City: Narragansett
+        State_or_Province: RI
+        Postal_Code: 02882
+      Contact_Electronic_Mail_Address: beachSAMP@etal.uri.edc
+      Contact_Instructions: E-mail preferred
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
